@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 36px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 5px;
+  margin: 25px 10px;
+}
+h1::before {
+  content: "F";
+  display: inline-block;
+  font-size: 75px;
+  color: #3f704d;
+}
+
+p {
+  width: 60%;
+  line-height: 40px;
+  font-size: 24px;
+  margin: 20px 15px;
+  color: rgba(0, 0, 0, 0.689);
+}
+.main-div {
+  padding: 20px 14px;
+  /* border: 5px solid orangered; */
+  width: 80%;
+}
+button {
+  font-size: 16px;
+  margin: 10px 50px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: rgba(40, 218, 40, 0.333);
+  color: rgb(40, 50, 50);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(8, 212, 8);
+}
+.img-section {
+  width: 80%;
+}
+.food-img {
+  width: 70%;
+  height: 80vh;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.one {
+  float: left;
+  cursor: pointer;
+  width: 15%;
+  font-size: 24px;
+}
+
+.two {
+  float: left;
+  width: 15%;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.three {
+  float: left;
+  width: 15%;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.four {
+  cursor: pointer;
+  float: left;
+  width: 15%;
+  font-size: 24px;
+}
+.one:hover {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Clear the float to prevent layout issues */
+.clear {
+  clear: both;
+}
